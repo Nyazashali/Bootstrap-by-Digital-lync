@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .pricing-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .pricing-header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .btn-primary {
+            width: 100%;
+            font-weight: bold;
+        }
+        .feature-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .feature-list li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container my-5">
+    <div class="row">
+        <!-- Free Plan -->
+        <div class="col-md-4">
+            <div class="pricing-card bg-dark text-white">
+                <div class="pricing-header bg-warning text-dark p-2">Free</div>
+                <div class="text-center">30 Days Trial</div>
+                <div class="text-center font-weight-bold">Free</div>
+                <p class="text-center">For new web developers ready to create their first site.</p>
+                <ul class="feature-list">
+                    <li>*No Credit Card required</li>
+                    <li>✔ Browse Website with ads</li>
+                    <li>✔ Build static sites</li>
+                    <li>✔ 1 space</li>
+                    <li>✔ 10 MB storage</li>
+                    <li>✔ 75 MB data / month</li>
+                    <li>✔ 500 requests / month</li>
+                    <li>✔ Subdomain</li>
+                    <li>✔ SSL certificate</li>
+                </ul>
+                <button class="btn btn-primary mt-3">Get Started Now Free Trial</button>
+            </div>
+        </div>
+
+        <!-- Pro Plan -->
+        <div class="col-md-4">
+            <div class="pricing-card">
+                <div class="pricing-header">Pro</div>
+                <div class="price">$5.99/month</div>
+                <p class="text-center">For those running multiple spaces with more traffic.</p>
+                <ul class="feature-list">
+                    <li><i class="fa-solid fa-circle-check" style="color: #2ec106;">Browse Website with ads</i></li>
+                    <li>✔ Build static sites</li>
+                    <li>✔ 10 space</li>
+                    <li>✔ 3 GB storage</li>
+                    <li>✔ 15 GB data / month</li>
+                    <li>✔ 2000 requests / month</li>
+                    <li>✔ Subdomain</li>
+                    <li>✔ SSL certificate</li>
+                    <li>✔ Access to HTML video</li>
+                    <li>✔ Priority support</li>
+                    <li>✔ Analytics</li>
+                </ul>
+                <button class="btn btn-primary mt-3">$5.99/month</button>
+            </div>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="col-md-4">
+            <div class="pricing-card">
+                <div class="pricing-header">Premium</div>
+                <div class="price">$15.99/month</div>
+                <p class="text-center">Build more sites and grow your online presence.</p>
+                <ul class="feature-list">
+                    <li>✔ Browse Website with ads</li>
+                    <li>✔ Build static sites</li>
+                    <li>✔ 20 space</li>
+                    <li>✔ 10 GB storage</li>
+                    <li>✔ 200 GB data / month</li>
+                    <li>✔ 500,000 requests / month</li>
+                    <li>✔ Subdomain</li>
+                    <li>✔ SSL certificate</li>
+                    <li>✔ Access to HTML video</li>
+                    <li>✔ Priority support</li>
+                    <li>✔ Analytics</li>
+                </ul>
+                <button class="btn btn-primary mt-3">$15.99/month</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
